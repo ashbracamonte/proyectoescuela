@@ -1,0 +1,31 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  .color{
+    background-color: rgb(21, 21, 66);
+  }
+  .direccion{
+    text-align: center;
+  }
+
+  .cry{
+    margin: 3px;
+  }
+  .lorrar{
+    margin: center;
+  }
+  
+
+.fuente{
+  font-size: 35px;
+  font-weight: 20px;
+}
+
+.titulo{
+  color: rgb(21, 21, 66) ;
+}
+.imagen{
+  margin:0px auto;
+  display:block;
+
+}

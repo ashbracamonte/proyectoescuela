@@ -1,0 +1,13 @@
+<a class="nav-link a one" id="active" href="#one" scroll data-target=".navbar-collapse.show">One</a>
+
+<!-- scriprit for scroll -->
+<script>
+    smoothScroll.init({
+        selector: '[scroll]', // Clase en la etiqueta a
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 700, // Velocidad
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 0, // Que tan lejos del elemnto va a quedar
+        callback: function (anchor, toggle) { } // funcion después del scrolling
+    });
+</script>
